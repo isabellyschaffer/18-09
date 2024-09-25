@@ -1,0 +1,24 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #e1bee7;
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    margin: 15px;
+    width: 500px;
+    height: 600px;
+    border-radius: 15px;
+    border: 5px solid #ab47bc;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
